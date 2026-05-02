@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #f5efe6; /* fundo bege claro */
+    
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar : facilita a navegação entre outras paginas dentro do sistema  */
+
+.navbar {
+    width: 100%;
+    background: #8a8478;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+     display: flex;
+    align-items: center;
+    height: 70px;
+     justify-content: space-between;
+}
+.nav-logo {
+    color: #f4e7c5;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-links a {
+    color: #f4e7c5;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    
+}
+.nav-ativo {
+    font-weight: bold;
+    border-bottom: 2px solid #ff7a00;
+}
+.nav-links a:hover {
+    opacity: 0.8;
+}
+
+.box {
+    width: 350px;
+    margin: 120px auto; /* centraliza */
+    background: #eaeaea;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #f4a300;
+    text-align: center;
+}
+/* Título */
+.box h1 {
+    margin-bottom: 20px;
+    color: #8B4513;
+}
+.input_box {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input_box span {
+    display: block;
+    margin-bottom: 5px;
+    color: #8B4513;
+    font-weight: bold;
+}
+
+.input_box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #f4a300;
+    outline: none;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e66a00;
+}
