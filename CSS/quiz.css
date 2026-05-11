@@ -1,0 +1,53 @@
+/* Card principal */
+.quiz-card {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.03);
+}
+
+/* Botões de opção (as caixas brancas do vídeo) */
+.option-button {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.option-button:hover {
+    border-color: #D4A373; /* Cor âmbar do seu Figma */
+    background-color: #FFFAF5;
+}
+
+/* Quando uma opção é selecionada (via JS) */
+.option-button.selected {
+    border-color: #D4A373;
+    background-color: #FFF7ED;
+    box-shadow: 0 0 0 1px #D4A373;
+}
+
+/* Barra de progresso laranja */
+.progress-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.bar {
+    height: 6px;
+    flex: 1;
+    background: #F3F4F6;
+    border-radius: 10px;
+}
+
+.bar.active {
+    background: #D4A373;
+}
